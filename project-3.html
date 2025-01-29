@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Case Study of Project 3</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="mysecondpic.png"
+              alt="Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Arvind Gupta</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">WhatsApp Chat Analyzer</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            This project, built using <strong>Python and Machine Learning</strong>, focuses on analyzing WhatsApp chat
+            data to extract meaningful insights. By leveraging skills in text <strong>, data visualization,
+             and sentiment analysis,</strong> the analyzer provides valuable metrics like user activity, word frequency, 
+             and sentiment trends. It is a useful tool for understanding <strong>patterns, improving team collaboration, 
+               or analyzing customer interactions</strong> in business contexts.
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="assets/png/whatsaapp chat ana pic.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                <strong>WhatsApp Chat Analyzer</strong> <br>  <br>
+             
+                
+
+Overview:  <br>
+<strong>Introduction</strong> <br>
+The WhatsApp Chat Analyzer is a project designed to analyze and extract meaningful insights from WhatsApp chat data. The goal was to develop a tool that could process chat logs, providing summaries and visualizations to understand chat activity, sentiment, and other communication patterns. This tool was aimed at helping users better understand their chat data by generating insights on message frequency, word usage, and sentiment over time.
+
+<br>Step-by-Step Approach:
+
+<br><b>Step 1: Data Extraction</b><br>  
+The first step involved extracting data from WhatsApp chat logs. These logs were exported in a .txt format, which contains information such as timestamps, sender names, and the message content. The data was cleaned by removing unnecessary information like system-generated messages and any non-relevant metadata, ensuring the focus remained on the actual chat content.
+
+<br><b>Step 2: Data Preprocessing</b><br>  
+Once the data was extracted, it was preprocessed for analysis. This step involved:
+<br>- Splitting the data into individual messages.
+<br>- Converting timestamps into a standardized format for easier analysis.
+<br>- Handling missing or corrupted data by filling in gaps or removing incomplete messages.
+
+<br><b>Step 3: Message Analysis</b><br>  
+The next step was analyzing the messages for frequency and patterns. This involved:
+<br>- Counting the number of messages sent by each participant.
+<br>- Identifying the most frequent words and phrases in the chat.
+<br>- Analyzing the distribution of messages over time to identify peaks in activity.
+
+<b>Step 4: Sentiment Analysis</b><br>  
+Sentiment analysis was applied to the chat messages to gauge the overall mood of the conversation. Using natural language processing techniques, each message was classified into categories such as positive, negative, or neutral. This analysis provided insights into the sentiment trends over time, helping to understand how the tone of the conversation evolved.
+
+<br><b>Step 5: Visualization</b><br>  
+Once the analysis was complete, I created visualizations to help represent the findings. This included:
+<br>- A line chart showing message activity over time.
+<br>- Word clouds to highlight the most common words used.
+<br>- Pie charts to show the distribution of messages by participant.
+<br>- A sentiment trend graph to visualize the overall mood throughout the conversation.
+
+<br><b>Step 6: Reporting</b><br>  
+The final step was to compile all the insights and visualizations into a user-friendly report. This report allowed the user to view:
+<br>- A summary of the most active participants.
+<br>- Insights into the overall sentiment of the conversation.
+<br>- Patterns in message frequency and content.
+
+<br><b>Outcome:</b> <br> 
+The WhatsApp Chat Analyzer provided a detailed breakdown of chat data, giving users actionable insights into communication patterns. The tool not only helped to identify trends in message activity but also provided a clear understanding of sentiment over time. This project demonstrated my ability to work with text data, apply natural language processing techniques, and create meaningful visualizations that offer practical insights.
+              </p>
+             
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Excel</div>
+                <div class="skills__skill">Machine Learning</div>
+                
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Source Code</h3>
+              <a
+                href="https://github.com/shilpa0216/WhatsApp-chat-analyzer"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >GitHub</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/arvind-gupta-8398b7171/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/arvindanalyst">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="mailto:shilpaqwer0@gmail.com">
+                <img class="main-footer__icon" src="./assets/png/email2.png" alt="icon" />
+              </a>
+  
+              
+              <!--<a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>-->
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">SHILPA PRASAD</h4>
+            <p class="main-footer__short-desc">
+              Aspiring <b>Data/Business Analyst</b> with strong skills in <b>SQL, Excel, Power BI, 
+                and Python,</b> eager to turn data into actionable insights.            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by
+          <a rel="noreferrer" target="_blank" href="#"
+            >SHILPA PRASAD</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
